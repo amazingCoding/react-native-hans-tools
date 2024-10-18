@@ -1,33 +1,22 @@
-# react-native-hans-tools
-
-tools
-
-## Installation
-
-```sh
-npm install react-native-hans-tools
-```
-
-## Usage
-
-
-```js
-import { multiply } from 'react-native-hans-tools';
-
-// ...
-
-const result = multiply(3, 7);
-```
+## Tools
+<!-- table -->
+| Method | Description | Platform |
+| --- | --- | --- |
+| getVersion | Get the current version | Android, iOS |
+| getBioType | Get the biometric type | Android, iOS |
+| getLang | Get the current language | Android, iOS |
+| copyTextToClipboard | Copy text to clipboard | Android, iOS |
+| readTextFromClipboard | Read text from clipboard | Android, iOS |
+| setStatusBarAndNavigationBar | Set the status bar and navigation bar | Android |
+| impact | Vibrate | Android, iOS |
+| selectAndDecodeQRImage | Select and decode QR code image | Android, iOS |
+| getSafeAreaInsets | Get the safe area insets | iOS |
+| addKeyChain | Add a keychain | Android, iOS |
+| getKeyChain | Get a keychain | Android, iOS |
+| deleteKeyChain | Delete a keychain | Android, iOS |
+| authenticateWithBiometricsIOS | Authenticate with biometrics (IOS) | iOS |
+| authenticateWithBiometricsAndroid | Authenticate with biometrics (Android) | Android |
 
 
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+## Development
+* adb reverse tcp:8081 tcp:8081
